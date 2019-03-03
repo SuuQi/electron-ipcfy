@@ -1,5 +1,6 @@
 import { dialog, BrowserWindow } from "electron";
-import { ipcfy, getCurrentIpcContext } from "electron-ipc-facade";
+// import { ipcfy, getCurrentIpcContext } from "electron-ipc-facade";
+import { ipcfy, getCurrentIpcContext } from "electron-ipcfy";
 
 export interface TestService {
     promptForFile(): Promise<string>;
